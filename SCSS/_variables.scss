@@ -1,0 +1,16 @@
+
+$color-principal:#365B6D;
+$color-secundario:#41C1BA;
+
+
+@mixin boton-obtener {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+  

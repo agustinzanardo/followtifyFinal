@@ -1,0 +1,74 @@
+@import "variables.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+$color-principal:#365B6D;
+$color-secundario:#41C1BA;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Montserrat', sans-serif;
+  background-color:$color-principal;
+}
+
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 570px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+@keyframes left-move {
+
+  0% {
+    opacity: 0;
+    transform:translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0px);
+  }
+}
+
+@keyframes up-move {
+
+  0% {
+    opacity: 0;
+    transform:translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateY(0px);
+  }
+}
+
+@keyframes right-move {
+
+  0% {
+    opacity: 0;
+    transform:translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0px);
+  }
+}
+

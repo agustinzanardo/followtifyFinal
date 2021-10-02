@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+.main {
+  width: 90%;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  height: 500px; }
+
+.nav {
+  display: flex;
+  margin-top: 30px;
+  align-items: center; }
+
+.nav__logo {
+  display: flex;
+  margin: 20px 70px; }
+
+.nav ul {
+  display: flex;
+  justify-content: center; }
+
+.nav ul li {
+  list-style: none;
+  margin-right: 70px; }
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3em; }
+
+.nav a:hover {
+  color: black; }
+
+.main-info {
+  display: inline;
+  color: #fff; }
+
+.main-info h1 {
+  font-size: 5em;
+  animation: left-move 1s ease-in; }
+
+.main-info h2 {
+  font-size: 2em;
+  animation: right-move 1s ease-in; }
+
+.btnUno {
+  font-size: 1.2em;
+  width: 200px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #41C1BA;
+  border: none;
+  color: #fff; }
+
+.btnUno:hover {
+  background-color: #3ff7e5; }
+
+.nav__img img {
+  height: 500px;
+  animation: up-move 1s ease-in; }
+
+.nav__img img:hover {
+  filter: grayscale(60%); }
+
+.nav__info {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-bottom: 300px; }
+
+#price-container {
+  width: 100%;
+  height: 900px;
+  align-content: center; }
+
+section.pricing {
+  background: #41C1BA;
+  font-family: 'Montserrat', sans-serif; }
+
+.pricing ul li {
+  margin-bottom: 1rem; }
+
+.btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s; }
+
+.text-muted {
+  opacity: 0.7; }
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); }
+  .card hr {
+    margin: 1.5rem 0; }
+
+.card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold; }
+
+.card-price {
+  font-size: 3rem;
+  margin: 0; }
+
+.period {
+  font-size: 0.8rem; }
+
+#card {
+  background-color: #4bf29c; }
+
+@media (min-width: 570px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3); }
+  .pricing .card:hover .btn {
+    opacity: 1; } }
+
+@keyframes left-move {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
+
+@keyframes up-move {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+@keyframes right-move {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
+
+#footer {
+  color: #fff; }
+
+.list-unstyled a {
+  text-decoration: none;
+  color: #fff; }
+
+.list-unstyled a:hover {
+  color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #365B6D; }
+
+/* Hover Effects on Card */
+@media (min-width: 570px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3); }
+  .pricing .card:hover .btn {
+    opacity: 1; } }
+
+@keyframes left-move {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
+
+@keyframes up-move {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+@keyframes right-move {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); } }
